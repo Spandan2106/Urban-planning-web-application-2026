@@ -2,6 +2,7 @@ matplotlib
 networkx
 openpyxl
 pymongo
+plotly
 python-dotenv
 reportlab
 streamlit
