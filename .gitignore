@@ -1,0 +1,37 @@
+# ... (other entries)
+
+# Secrets and environment variables
+.env
+
+# ... (other entries)
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Secrets and environment variables
+.env
+
+# User-generated content
+uploads/
+outputs/
+
+# Logs
+logs/
+
+# IDE and editor directories
+.idea/
+.vscode/
+
+# Matplotlib cache
+.matplotlib/
+
+# Test artifacts
+.pytest_cache/
+.coverage

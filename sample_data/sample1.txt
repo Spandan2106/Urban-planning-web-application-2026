@@ -1,0 +1,6 @@
+# Simple administrative map
+A: B C
+B: A C D
+C: A B D
+D: B C E
+E: D

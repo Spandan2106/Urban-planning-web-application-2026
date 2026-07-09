@@ -1,0 +1,6 @@
+# Cycle with an isolated region
+North South
+South East
+East West
+West North
+Central
