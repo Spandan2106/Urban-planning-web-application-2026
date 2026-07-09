@@ -3,4 +3,5 @@ networkx
 openpyxl
 pymongo
 python-dotenv
+reportlab
 streamlit
