@@ -48,6 +48,8 @@ def create_graph_figure(graph: nx.Graph, coloring: dict[str, int] | None = None)
         pos,
         width=1.8,
         edge_color="#7f8c8d",
+        arrows=True,
+        arrowstyle="-",
         connectionstyle="arc3,rad=0.1",
         ax=axis,
     )
