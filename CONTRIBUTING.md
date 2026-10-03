@@ -1,38 +1,70 @@
-# Contributing to the Civic Region Planner
+# 🤝 Contributing to the Civic Region Planner
 
-First off, thank you for considering contributing to this project! Your help is greatly appreciated.
+First off, thank you for taking the time to contribute! 🎉 Projects like this thrive because of community support, and your help is greatly appreciated.
 
-## How Can I Contribute?
+---
 
-### Reporting Bugs
+## 🧭 Code of Conduct
 
-If you find a bug, please open an issue and provide the following information:
+By participating in this project, you agree to abide by our core principles: be respectful, inclusive, and collaborative.
 
-- A clear and descriptive title.
-- A detailed description of the problem, including steps to reproduce it.
-- Any relevant error messages or tracebacks.
-- Information about your environment (e.g., operating system, Python version).
+---
 
-### Suggesting Enhancements
+## 🚀 How Can I Contribute?
 
-If you have an idea for a new feature or an improvement to an existing one, please open an issue to discuss it. This allows us to coordinate efforts and ensure the proposed change aligns with the project's goals.
+### 🐛 Reporting Bugs
 
-### Submitting Pull Requests
+Found a bug or unexpected behavior? Please open an issue and include the following details to help us debug quickly:
 
-1.  Fork the repository and create your branch from `main`.
-2.  Make your changes and ensure the code lints and tests pass.
-3.  Add comments to your code where necessary.
-4.  Update the documentation if your changes affect it.
-5.  Open a pull request with a clear description of the changes.
+* **Clear Title:** A short, descriptive summary of the issue.
+* **Detailed Description:** Step-by-step instructions on how to reproduce the bug.
+* **Error Logs:** Relevant error messages, stack traces, or terminal outputs.
+* **Environment Info:** Operating system, Python version, Streamlit version, and browser details.
 
-## Style Guide
+---
 
-This project uses `black` for code formatting and `ruff` for linting. Please ensure your contributions are formatted accordingly before submitting a pull request.
+### 💡 Suggesting Enhancements
 
-```bash
-# Format code
-black .
+Have an idea for a new feature, algorithm optimization, or UI improvement? 
 
-# Lint code
-ruff .
+1. Open a **GitHub Issue** with the tag `enhancement`.
+2. Describe the feature, why it would be useful, and how you envision it working.
+3. This allows us to discuss and align efforts before code is written!
+
+---
+
+### 🛠️ Pull Request (PR) Process
+
+Ready to contribute code? Follow these steps to get your PR merged smoothly:
+
+1. **Fork** the repository and create your feature branch from `main`:
+   ```bash
+   git checkout -b feature/amazing-new-feature
+   ```
+2. **Set up your environment locally and install development dependencies:**
+
+```Bash
+pip install -r requirements.txt
 ```
+3. **Make your changes adhering to the existing project structure and code standards.**
+
+4. **Run tests using pytest to ensure nothing is broken:**
+
+```Bash
+pytest
+```
+5. **Commit your changes with clear, descriptive commit messages:**
+
+```Bash
+git commit -m "feat: add support for DSATUR graph coloring algorithm"
+```
+6. **Push to your fork and open a Pull Request against the main branch.**
+
+**🧪 Development Guidelines**
+* Code Style: Keep your code clean, modular, and documented.
+
+* Testing: Add unit tests for any new logic or algorithmic features under the tests/ directory.
+
+* Commit Messages: Use descriptive messages (e.g., fix: resolve MongoDB connection fallback timeout).
+
+Thank you once again for helping improve the Civic Region Planner! 🌟
